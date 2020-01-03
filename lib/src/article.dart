@@ -17,14 +17,94 @@ const Article(
     });
 }
 
-final acrticles = [
+final articles = [
   new Article(
-    text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
-    domain: "wiley.com",
-    by: "zdw",
-    age: "21",
-    score: 215,
-    commentsCount: 18
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "wiley.com",
+      by: "zdw",
+      age: "21",
+      score: 215,
+      commentsCount: 18
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "tut.by",
+      by: "ttb",
+      age: "3 hours",
+      score: 15,
+      commentsCount: 83
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "wiley.com",
+      by: "zdw",
+      age: "21",
+      score: 215,
+      commentsCount: 18
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "tut.by",
+      by: "ttb",
+      age: "3 hours",
+      score: 15,
+      commentsCount: 83
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "wiley.com",
+      by: "zdw",
+      age: "21",
+      score: 215,
+      commentsCount: 18
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "tut.by",
+      by: "ttb",
+      age: "3 hours",
+      score: 15,
+      commentsCount: 83
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "wiley.com",
+      by: "zdw",
+      age: "21",
+      score: 215,
+      commentsCount: 18
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "tut.by",
+      by: "ttb",
+      age: "3 hours",
+      score: 15,
+      commentsCount: 83
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "wiley.com",
+      by: "zdw",
+      age: "21",
+      score: 215,
+      commentsCount: 18
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "tut.by",
+      by: "ttb",
+      age: "3 hours",
+      score: 15,
+      commentsCount: 83
+  ),
+  new Article(
+      text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",
+      domain: "wiley.com",
+      by: "zdw",
+      age: "21",
+      score: 215,
+      commentsCount: 18
   ),
   new Article(
       text: """Aw shucks, guys ... you make me blush with your compliments.<p>Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?""",

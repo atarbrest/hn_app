@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'src/article.dart';
 
 void main() => runApp(MyApp());
@@ -28,7 +29,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  List<Article> _articles = articles;
 
   @override
   Widget build(BuildContext context) {
@@ -36,19 +37,24 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              'Hello',
-              style: Theme.of(context).textTheme.display1,
-            ),
-          ],
-        ),
+      body: ListView(
+        children: _articles.map(_buildItem).toList(),
+      ),
+    );
+  }
+
+  Widget _buildItem(Article article) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: ListTile(
+        title: Text(article.text, style: new TextStyle(fontSize: 24.0)),
+        subtitle: Text("${article.commentsCount} comments"),
+        onTap: () async {
+          final urlString = "http://${article.domain}";
+          if (await canLaunch(urlString)) {
+            launch(urlString);
+          }
+        },
       ),
     );
   }
